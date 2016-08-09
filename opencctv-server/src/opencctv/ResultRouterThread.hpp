@@ -1,4 +1,3 @@
-
 #ifndef OPENCCTV_RESULTROUTERTHREAD_HPP_
 #define OPENCCTV_RESULTROUTERTHREAD_HPP_
 
@@ -10,6 +9,9 @@
 #include "util/serialization/Serializers.hpp"
 #include "db/AnalyticResultGateway.hpp"
 #include <sstream>
+
+#include "mq/TcpMqSender.hpp"
+#include "mq/NotificationMqUtil.hpp"
 
 namespace opencctv {
 
